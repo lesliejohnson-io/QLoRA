@@ -4,7 +4,6 @@ A specialized system designed to fine-tune a powerful Large Language Model (LLM)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
-[![Build Status](https://github.com/lesliejohnson-io/QLoRA/actions/workflows/ci.yml/badge.svg)](https://github.com/lesliejohnson-io/QLoRA/actions/workflows/ci.yml)
 ---
 
 ## Key Features
@@ -58,7 +57,7 @@ The **Smart Pricer** addresses pricing ambiguity through a strategic, data-centr
 
 ---
 
-## ▶️ Usage and Commands
+## Usage and Commands
 
 The main script is executed using `uv run main.py` with specific flags:
 
@@ -70,7 +69,7 @@ This command prepares the `.jsonl` files and runs a quick evaluation using the b
 uv run main.py --demo
 ````
 
-### 2\. Start Fine-Tuning Job
+### 2. Start Fine-Tuning Job
 
 This initiates the remote training process on the LLM server.
 
@@ -79,7 +78,7 @@ This initiates the remote training process on the LLM server.
 uv run main.py --train-size 500 --val-size 100 
 ```
 
-### 3\. Evaluate Fine-Tuned Model
+### 3. Evaluate Fine-Tuned Model
 
 Once the training job is complete, use the Job ID to test the final model's accuracy:
 
