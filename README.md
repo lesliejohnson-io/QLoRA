@@ -2,8 +2,16 @@
 
 A specialized system designed to fine-tune a powerful Large Language Model (LLM) into an expert product pricing agent. The model accurately estimates the market price of goods solely on descriptive features, leveraging an enhanced training strategy for superior financial reasoning.
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
+
+![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)
+![OpenAI Fine-Tuning](https://img.shields.io/badge/OpenAI-Fine--Tuning-412991?logo=openai&logoColor=white)
+![Model: gpt-4o-mini](https://img.shields.io/badge/Model-gpt--4o--mini-blueviolet)
+![HuggingFace Auth](https://img.shields.io/badge/HuggingFace-Token%20Auth-FCC21B?logo=huggingface)
+![Data Format: JSONL](https://img.shields.io/badge/Data-JSONL-orange)
+![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+
 ---
 
 ## Key Features
@@ -27,6 +35,21 @@ The **Smart Pricer** addresses pricing ambiguity through a strategic, data-centr
 | **`uv`** | Fast dependency resolution and virtual environment management. |
 | **Data Tools** | `pandas`, `numpy`, `json`, `pickle` for data handling. |
 
+---
+### **Confidence vs. Prediction Error**
+
+The model does a final analysis and displays the results after running.
+The scatter plot below shows how the fine-tuned model’s confidence scores relate to absolute pricing error.
+
+**Patterns to look for:**
+
+- **High-confidence predictions (≥ 0.95)** tend to cluster around **low error**.  
+- **Mid-confidence predictions (0.85–0.92)** show broader variance.  
+- **Low-confidence predictions (< 0.82)** correlate with occasional large errors — useful for setting human-review thresholds.
+
+<p align="center">
+  <img src="FIGURE_PATH_HERE" alt="Confidence vs Prediction Error" width="85%">
+</p>
 ---
 
 ## Getting Started
