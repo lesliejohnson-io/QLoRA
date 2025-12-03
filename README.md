@@ -1,16 +1,12 @@
-# 🤖 Smart Pricer Fine-Tuner
+# 🧠 Smart Pricer Fine-Tuner
 
 A specialized system designed to fine-tune a powerful Large Language Model (LLM) into an expert product pricing agent. The model accurately estimates the market price of goods solely on descriptive features, leveraging an enhanced training strategy for superior financial reasoning.
 
-
-![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)
+![Python 3.12](https://img.shields.io/badge/Python-3.12-blue)
 ![OpenAI Fine-Tuning](https://img.shields.io/badge/OpenAI-Fine--Tuning-412991?logo=openai&logoColor=white)
-![Model: gpt-4o-mini](https://img.shields.io/badge/Model-gpt--4o--mini-blueviolet)
-![HuggingFace Auth](https://img.shields.io/badge/HuggingFace-Token%20Auth-FCC21B?logo=huggingface)
-![Data Format: JSONL](https://img.shields.io/badge/Data-JSONL-orange)
-![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-
+![Automated Pipeline](https://img.shields.io/badge/Pipeline-Automated-blue)
+![Reproducible Training](https://img.shields.io/badge/Training-Reproducible-success)
+![Confidence Calibration](https://img.shields.io/badge/Calibration-Confidence%20Scoring-important)
 
 ---
 
@@ -48,8 +44,9 @@ The scatter plot below shows how the fine-tuned model’s confidence scores rela
 - **Low-confidence predictions (< 0.82)** correlate with occasional large errors — useful for setting human-review thresholds.
 
 <p align="center">
-  <img src="FIGURE_PATH_HERE" alt="Confidence vs Prediction Error" width="85%">
+  <img src="Figure_1.png" alt="Confidence vs Prediction Error" width="85%">
 </p>
+
 ---
 
 ## Getting Started
